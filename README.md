@@ -1,7 +1,7 @@
 # BESD-Week11
 Relational Databases with MySQL Week 11 Assignment
 Coding Steps:
-Create a class of whatever type you want (Animal, Person, Camera, Cheese, etc.). 
+Create a class of whatever type you want (Animal, Person, Camera, Cheese, etc.).
 Do not implement the Comparable interface.
 Add a name instance variable so that you can tell the objects apart.
 Add getters, setters and/or a constructor as appropriate.
@@ -21,7 +21,8 @@ Print the resulting String.
 Create a new class with a main method. Create a method (method a) that accepts an Optional of some type of object (Animal, Person, Camera, etc.).
 The method should return the object unwrapped from the Optional if the object is present. For example, if you have an object of type Cheese, your method signature should look something like this:
 public Cheese cheesyMethod(Optional<Cheese> optionalCheese) {...}
-The method should throw a NoSuchElementException with a custom message if the object is not present.
-Create another method (method b) that calls method a with an object wrapped by an Optional. Show that the object is returned unwrapped from the Optional (i.e., print the object).
-Method b should also call method a with an empty Optional. Show that a NoSuchElementException is thrown by method a by printing the exception message. Hint: catch the NoSuchElementException as parameter named "e" and do System.out.println(e.getMessage()).
-Note: your method should handle the Optional as shown in the video on Optionals using the orElseThrow method. For the missing object, you must use a Lambda expression in orElseThrow to return a NoSuchElementException with a custom message.
+  The method should throw a NoSuchElementException with a custom message if the object is not present.
+  Create another method (method b) that calls method a with an object wrapped by an Optional. Show that the object is returned unwrapped from the Optional (i.e., print the object).
+  Method b should also call method a with an empty Optional. Show that a NoSuchElementException is thrown by method a by printing the exception message. Hint: catch the NoSuchElementException as parameter named "e" and do System.out.println(e.getMessage()).
+  Note: your method should handle the Optional as shown in the video on Optionals using the orElseThrow method. For the missing object, you must use a Lambda expression in orElseThrow to return a NoSuchElementException with a custom message.
+  
