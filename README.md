@@ -1,9 +1,14 @@
 # BESD-Week11
 Relational Databases with MySQL Week 11 Assignment
+
 Coding Steps:
+
 Create a class of whatever type you want (Animal, Person, Camera, Cheese, etc.).
+
 Do not implement the Comparable interface.
+
 Add a name instance variable so that you can tell the objects apart.
+
 Add getters, setters and/or a constructor as appropriate.
 Add a toString method that returns the name and object type (like "Pentax Camera").
 Create a static method named compare in the class that returns an int and takes two of the objects as parameters. Return -1 if parameter 1 is "less than" parameter 2. Return 1 if parameter 1 is "greater than" parameter 2. Return 0 if the two parameters are "equal".
